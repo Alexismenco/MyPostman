@@ -4,6 +4,7 @@ var send = document.querySelector('#send');
 var body = document.querySelector("#body")
 var titulo= document.querySelector("#titulo");
 var json = document.querySelector("#json");
+json.style=
 
 send.addEventListener("click", function(){
     titulo.innerText= '';

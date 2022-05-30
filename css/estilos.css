@@ -29,7 +29,6 @@ body{
     margin-left: 10px;
     margin-top: -5px;
     width: max-content;
-
 }
 @media (max-width: 512px) {
     #send {
@@ -43,6 +42,7 @@ body{
     height: max-content;
     width: 65%;
     padding: 8px;
+
 }
 
 #respuesta {
@@ -50,10 +50,30 @@ body{
     color:white;
     width: 80%;
     margin: auto;
-    border:  2px solid black;
-    border-radius: 20px;
-    background-color: rgb(44, 48, 51);;
 }
+@media (max-width: 990px) {
+    #respuesta {
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width: 730px) {
+    #respuesta {
+        font-size: 10px;
+    }
+  }
+
+  @media (max-width: 605px) {
+    #respuesta {
+        font-size: 8px;
+    }
+  }
+  @media (max-width: 490px) {
+    #respuesta {
+        font-size: 6.1px;
+    }
+  }
+
 h3 {
     text-align: center;
     color: white;
