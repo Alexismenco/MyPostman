@@ -15,7 +15,7 @@ body{
 
 #url {
     height: 50px;
-    width: 650px;
+    width: 70%;
     font-size: 20px;
     margin-left: 5px;
     padding-left: 10px;
@@ -31,12 +31,17 @@ body{
     width: max-content;
 
 }
+@media (max-width: 512px) {
+    #send {
+        margin-top: 5px;
+    }
+  }
 #body {
     border-radius: 15px;
     background-color: rgb(44, 48, 51);
     color: white;
     height: max-content;
-    width: 60%;
+    width: 65%;
     padding: 8px;
 }
 
